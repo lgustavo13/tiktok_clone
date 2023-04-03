@@ -1,0 +1,38 @@
+.videoSidebar {
+  position: absolute;
+  top: 55%;
+  right: 10px;
+  color: white;
+}
+
+.videoSidebar__options {
+  padding: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.whats {
+  border: 1px solid green;
+  border-radius: 50%;
+  background-color: green;
+  text-align: center;
+  padding: 5px;
+}
+
+@media only screen and (max-width: 1800px) {
+  .videoSidebar {
+    top: 50%;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .videoSidebar {
+    top: 38%;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .videoSidebar {
+    top: 50%;
+  }
+}
